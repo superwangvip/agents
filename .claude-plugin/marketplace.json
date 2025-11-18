@@ -1714,6 +1714,44 @@
       ]
     },
     {
+      "name": "java-development",
+      "source": "./plugins/java-development",
+      "description": "Modern Java development with Java 21+, Spring Boot 3.x, virtual threads, Maven/Gradle, and enterprise-grade practices",
+      "version": "1.2.1",
+      "author": {
+        "name": "Seth Hobson",
+        "url": "https://github.com/wshobson"
+      },
+      "homepage": "https://github.com/wshobson/agents",
+      "repository": "https://github.com/wshobson/agents",
+      "license": "MIT",
+      "keywords": [
+        "java",
+        "spring-boot",
+        "maven",
+        "gradle",
+        "enterprise",
+        "microservices"
+      ],
+      "category": "languages",
+      "strict": false,
+      "commands": [
+        "./commands/java-scaffold.md"
+      ],
+      "agents": [
+        "./agents/java-pro.md",
+        "./agents/spring-boot-pro.md",
+        "./agents/jakarta-ee-pro.md"
+      ],
+      "skills": [
+        "./skills/java-testing-patterns",
+        "./skills/maven-build-management",
+        "./skills/spring-boot-patterns",
+        "./skills/modern-java-features",
+        "./skills/java-performance-optimization"
+      ]
+    },
+    {
       "name": "python-development",
       "source": "./plugins/python-development",
       "description": "Modern Python development with Python 3.12+, Django, FastAPI, async patterns, and production best practices",
